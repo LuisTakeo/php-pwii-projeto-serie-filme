@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+body {
+    background-color: black;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+
+.container__header {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+
+
+.header__navbar-list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px; 
+
+}
