@@ -1,3 +1,4 @@
+/* geral */
 *{
     margin: 0;
     padding: 0;
@@ -13,22 +14,37 @@ ul, li {
     list-style-type: none;
 }
 
+/* Cabeçalho */
+
 
 .container__header {
     border-bottom: 2px solid whitesmoke;
     background-color: crimson;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: last baseline;
     height: 60px;
 }
 
 
 .header__navbar-list {
     display: flex;
-    justify-content: space-evenly;
-    gap: 16px;
+    padding: 2px 0;
+    justify-content: space-around;
+    gap: 20px;
 
+}
+
+.list-item > a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.list-item > a:hover {
+    color: crimson;
+    background-color: aliceblue;
 }
 
 .header__login > button {
@@ -36,6 +52,8 @@ ul, li {
     outline: none;
     background: none;
 }
+
+/* conteudo main */
 
 .container {
     width: 80vw;
@@ -61,4 +79,29 @@ ul, li {
 
 .container__generos-filmes{
     background-color: rgba(240, 248, 255, 0.367);
+}
+
+.generos-filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.genero{
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container__cadastro {
+    border: 2px solid rgba(255, 255, 255, 0.255);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
 }
