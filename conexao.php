@@ -1,6 +1,6 @@
 <?php
 	$servidor="localhost";
-	$banco="dbPipoca";
+	$banco="dbpipoca";
 	$usuario="root";
 	$senha="";
 

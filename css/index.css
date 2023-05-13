@@ -26,6 +26,17 @@ ul, li {
     height: 60px;
 }
 
+.header__title > h2 > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header__title > h2 > a > img {
+    width: 40px;
+    position: relative;
+    top: -2px;
+}
+
 
 .header__navbar-list {
     display: flex;
@@ -35,29 +46,26 @@ ul, li {
 
 }
 
-.list-item > a {
+.list-item > a,
+.header__login > a  {
     color: aliceblue;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 25px;
 }
 
-.list-item > a:hover {
+.list-item > a:hover,
+.header__login > a:hover {
     color: crimson;
     background-color: aliceblue;
 }
 
-.header__login > button {
-    border: none;
-    outline: none;
-    background: none;
-}
 
 /* conteudo main */
 
 .container {
     width: 80vw;
-    margin: 2px auto;
+    margin: 10px auto;
 
 }
 
@@ -66,9 +74,11 @@ ul, li {
     width: 100%;
     height: 80vh;
     padding: 10px;
-    margin: 2px auto;
-    background: no-repeat url("https://images5.alphacoders.com/501/501188.jpg");
+    margin: 10px auto;
+    background: no-repeat url("../img/banner_projeto_filme.jpg");
     background-size: cover;
+    /* opacity: 0.99; */
+
 
     display: flex;
     flex-direction: column;
@@ -78,7 +88,7 @@ ul, li {
 }
 
 .container__generos-filmes{
-    background-color: rgba(240, 248, 255, 0.367);
+    
 }
 
 .generos-filmes {
@@ -89,6 +99,7 @@ ul, li {
 
 .genero{
     border: 2px solid white;
+    background-color: rgba(240, 248, 255, 0.089);
     width: 150px;
     border-radius: 20px;
     padding: 40px;
@@ -103,5 +114,26 @@ ul, li {
     border: 2px solid rgba(255, 255, 255, 0.255);
     border-radius: 10px;
     padding: 10px;
-    width: 50%;
+    width: 100%;   
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.salvar {
+    background: crimson;
+    align-self: center;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: crimson;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

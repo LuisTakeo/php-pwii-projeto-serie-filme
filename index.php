@@ -13,31 +13,15 @@
 </head>
 
 <body>
-    <header class="container__header">
-        <div class="header__title">
-            <h2>Filmes potocom</h2>
-        </div>
+    <?php 
+        include("header.php")
+    ?>
 
-        <nav class="header__navbar">
-            <ul class="header__navbar-list">
-                <li class="list-item"><a href="#">Filmes</a></li>
-                <li class="list-item"><a href="#">Series</a></li>
-                <li class="list-item"><a href="#">Contato</a></li>
-                <li class="list-item"><a href="#">Sobre</a></li>
-            </ul>
-        </nav>
+    <section class="container__destaques">
+   </section>
 
-        <div class="header__login">
-            <button>Entrar</button>
-        </div>
-
-    </header>
-    <main class="container">
-        <section class="container__destaques">
-            <h2 class="destaques_title">Nome filme</h2>
-            <p class="destaques_descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolor velit odit incidunt at et nulla amet eos nihil pariatur facere repellendus, culpa cupiditate dignissimos maxime ipsa aliquid recusandae doloribus.</p>
-        </section>
-
+    <main class="container">    
+        <!-- TODO botar cor em cada um dos generos -->
         <section class="container__generos-filmes">
             <ul class="generos-filmes">
                 <li class="genero">Terror</li>
@@ -49,32 +33,10 @@
         </section>
     </main>
 
-
-
-
-    <section class="container">
-        <form class="mb-3" action="./filme-salvar.php" method="post" id="container__cadastro">
-            <label class="form-label" for="txNome">Nome do filme: </label>
-            <input class="form-control" type="text" placeholder="Insira o nome do filme" name="txNome" id="txNome">
-
-            <label class="form-label" for="txAno">Ano: </label>
-            <input class="form-control" type="text" placeholder="Insira o ano" name="txAno" id="txAno">
-
-
-
-            <label class="form-label" for="txDuracao">Duração: </label>
-            <input class="form-control" type="text" placeholder="Insira a duração" name="txDuracao" id="txDuracao">
-
-            <label class="form-label" for="txDescricao">Descrição: </label>
-            <textarea class="form-control" placeholder="Insira a duração" name="txDescricao" id="txDescricao"></textarea>
-
-            <label class="form-label" for="txGenero">Genero: </label>
-            <input class="form-control" type="text" placeholder="Insira o gênero" name="txGenero" id="txGenero">
-
-            <input type="submit" value="Salvar">
-        </form>
-
-    </section>
+    <?php 
+        include('footer.php');
+    
+    ?>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>

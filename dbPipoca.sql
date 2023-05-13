@@ -33,7 +33,7 @@ CREATE TABLE `filmes` (
   `id_genero` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_idGenero` (`id_genero`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,7 +42,7 @@ CREATE TABLE `filmes` (
 
 LOCK TABLES `filmes` WRITE;
 /*!40000 ALTER TABLE `filmes` DISABLE KEYS */;
-INSERT INTO `filmes` VALUES (1,'Mario o Filme',2023,120,'Filme do Mario, muito nostalgico, pra toda familia, recomendo.',NULL);
+INSERT INTO `filmes` VALUES (4,'A viagem de Chiriro',2001,125,'Ã“tima animaÃ§Ã£o para assistir em famÃ­lia ',NULL),(5,'Super Mario o Filme',2023,80,'Filme bem nostalgico do Mario, para toda familia.',NULL);
 /*!40000 ALTER TABLE `filmes` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -57,7 +57,7 @@ CREATE TABLE `genero` (
   `id_genero` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(50) NOT NULL,
   PRIMARY KEY (`id_genero`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,6 +66,7 @@ CREATE TABLE `genero` (
 
 LOCK TABLES `genero` WRITE;
 /*!40000 ALTER TABLE `genero` DISABLE KEYS */;
+INSERT INTO `genero` VALUES (1,'AnimaÃ§Ã£o'),(2,'AnimaÃ§Ã£o'),(3,'AnimaÃ§Ã£o'),(4,'AnimaÃ§Ã£o'),(5,'AnimaÃ§Ã£o');
 /*!40000 ALTER TABLE `genero` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -105,4 +106,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-28 22:29:51
+-- Dump completed on 2023-05-12 22:25:02

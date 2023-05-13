@@ -4,7 +4,7 @@
 
 $id = $_GET['x'];
 
-$stmt = $pdo->prepare("select * from tbcontato where idcontato='$id'");
+$stmt = $pdo->prepare("select * from filmes where id='$id'");
 $stmt->execute();
 
 $row = $stmt->fetch(PDO::FETCH_BOTH);
