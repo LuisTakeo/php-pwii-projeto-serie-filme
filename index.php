@@ -13,15 +13,16 @@
 </head>
 
 <body>
-    <?php 
-        include("header.php")
+    <?php
+    include("header.php")
     ?>
 
     <section class="container__destaques">
-   </section>
+    </section>
 
-    <main class="container">    
+    <main class="container">
         <!-- TODO botar cor em cada um dos generos -->
+
         <section class="container__generos-filmes">
             <ul class="generos-filmes">
                 <li class="genero">Terror</li>
@@ -31,13 +32,47 @@
                 <li class="genero">Comédia</li>
             </ul>
         </section>
+
+        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <section class="container__lista-filmes">
+            <ul class="lista-filmes">
+                <li class="filme">
+                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Nome filme</h3>
+                    <p class="filme-descricao">Descrição</p>
+                </li>
+                <li class="filme">
+                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Nome filme</h3>
+                    <p class="filme-descricao">Descrição</p>
+                </li>
+                <li class="filme">
+                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Nome filme</h3>
+                    <p class="filme-descricao">Descrição</p>
+                </li>
+                <li class="filme">
+                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Nome filme</h3>
+                    <p class="filme-descricao">Descrição</p>
+                </li>
+                <li class="filme">
+                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Nome filme</h3>
+                    <p class="filme-descricao">Descrição</p>
+                </li>
+            </ul>
+        </section>
+        <!-- FIm da lista de filmes -->
+
+
     </main>
 
-    <?php 
-        include('footer.php');
-    
-    ?>
 
+    <?php
+    include('footer.php');
+
+    ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
