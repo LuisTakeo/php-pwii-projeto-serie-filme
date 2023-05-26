@@ -1,6 +1,6 @@
 <header class="container__header">
         <div class="header__title">
-            <h2><a href="index.php"> <img src="./img/logo.png" alt=""> Pipoca.com  </a></h2>
+            <h2><a href="index.php"> <img src="./img/logo.png" alt=""> <span>Pipoca.com</span> </a></h2>
         </div>
 
         <nav class="header__navbar">
