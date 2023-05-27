@@ -1,0 +1,25 @@
+Tema: salvar um arquivo no projeto PHP
+
+
+(até às 19h50min) Pesquise sobre: 
+
+HTML
+enctype
+multipart/form-data
+
+
+PHP
+isset()
+$_FILES[]
+is_uploaded_file
+move_uploaded_file
+
+
+Explicação
+
+
+Exercício
+Implementar a rotina de salvar arquivo na página de cadastro de filme
+
+
+
