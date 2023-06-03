@@ -41,7 +41,7 @@ session_start();
                 <?php 
                     if (isset($_GET['message'])) {
                         echo $_GET['message'];
-                        
+                        unset($_GET['message']);
                     }
                 ?>
                 </p>

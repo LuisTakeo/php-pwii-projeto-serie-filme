@@ -71,30 +71,30 @@ INSERT INTO `genero` VALUES (1,'AnimaÃ§Ã£o'),(2,'AnimaÃ§Ã£o'),(3,'Anima�
 UNLOCK TABLES;
 
 --
--- Table structure for table `usuario`
+-- Table structure for table `tbusuario`
 --
 
-DROP TABLE IF EXISTS `usuario`;
+DROP TABLE IF EXISTS `tbusuario`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `usuario` (
-  `idUsuario` int(11) NOT NULL AUTO_INCREMENT,
-  `nome` varchar(100) DEFAULT NULL,
-  `sobrenome` varchar(100) DEFAULT NULL,
-  `email` varchar(100) DEFAULT NULL,
-  `telefone` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`idUsuario`)
+CREATE TABLE `tbusuario` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `senha` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email` (`email`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `usuario`
+-- Dumping data for table `tbusuario`
 --
 
-LOCK TABLES `usuario` WRITE;
-/*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'mario','broz','mario@gmail.com','11252136544');
-/*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
+LOCK TABLES `tbusuario` WRITE;
+/*!40000 ALTER TABLE `tbusuario` DISABLE KEYS */;
+INSERT INTO `tbusuario` VALUES (1,'Luis','luistakeo@hotmail.com','vamosdarasmaos123');
+/*!40000 ALTER TABLE `tbusuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -106,4 +106,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-12 22:25:02
+-- Dump completed on 2023-06-02 22:26:22
