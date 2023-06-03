@@ -35,7 +35,7 @@ ul, li {
 }
 
 .header__title{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 0;
     display: inline;
 }
@@ -60,7 +60,7 @@ ul, li {
 
 
 .header__navbar-list {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     align-items: center;
     padding: 2px 0;
@@ -131,9 +131,9 @@ ul, li {
     justify-content: center;
     align-items: center;
 
-    &:hover{
+    /* &:hover{
         border-bottom: 1px solid rgba(240, 240, 240, 0.932);
-    }
+    }; */
 }
 
 
