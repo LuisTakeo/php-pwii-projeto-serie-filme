@@ -17,11 +17,13 @@
     include("header.php")
     ?>
 
-    <section class="container__destaques">
-    </section>
 
-    <main class="container-fluid">
+
+    <main class="container-principal">
         <!-- TODO botar cor em cada um dos generos -->
+        <section class="container__destaques">
+            <img src="img/banner_projeto_filme.jpg" alt="">
+        </section>
 
         <section class="container__generos-filmes">
             <ul class="generos-filmes">
@@ -33,32 +35,170 @@
             </ul>
         </section>
 
-        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <nav class="lista-filmes_nav">
+            <a href="#">Filmes</a>
+            <a href="#">Séries</a>
+        </nav>
         <section class="container__lista-filmes">
+
+
             <h2 class="lista-filmes__title">Animação</h2>
             <ul class="lista-filmes">
                 <li class="filme">
-                    <img src="img/Filmes/One-piece" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Nome filme</h3>
+                    <img src="img/Filmes/animacao/imagem1" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Monstros S.A.</h3>
                 </li>
                 <li class="filme">
-                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Nome filme</h3>
+                    <img src="img/Filmes/animacao/imagem2" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">A Viagem de Chiriro</h3>
 
                 </li>
                 <li class="filme">
-                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Nome filme</h3>
+                    <img src="img/Filmes/animacao/imagem3" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Divertidamente</h3>
 
                 </li>
                 <li class="filme">
-                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Nome filme</h3>
+                    <img src="img/Filmes/animacao/imagem4" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Sherek</h3>
 
                 </li>
                 <li class="filme">
-                    <img src="https://img.ibxk.com.br/2022/06/08/08144823103323.jpg?ims=328x" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Nome filme</h3>
+                    <img src="img/Filmes/animacao/imagem5" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Toy Story</h3>
+
+                </li>
+            </ul>
+        </section>
+        <!-- FIm da lista de filmes -->
+
+        </section>
+
+        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <section class="container__lista-filmes">
+            <h2 class="lista-filmes__title">Drama</h2>
+            <ul class="lista-filmes">
+                <li class="filme">
+                    <img src="img/Filmes/drama/drama1" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Estrelas Além do Tempo</h3>
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/drama/drama2" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">O Jogo da Imitação</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/drama/drama3" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Inteligencia Artificial</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/drama/drama4" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Steve Jobs</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/drama/drama5" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Um Sonho Possível</h3>
+
+                </li>
+            </ul>
+        </section>
+        <!-- FIm da lista de filmes -->
+
+        </section>
+
+        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <section class="container__lista-filmes">
+            <h2 class="lista-filmes__title">Comédia</h2>
+            <ul class="lista-filmes">
+                <li class="filme">
+                    <img src="img/Filmes/comedia/comedia1" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Gente Grande</h3>
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/comedia/comedia2" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">As Branquelas</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/comedia/comedia3" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Meninas Malvadas</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/comedia/comedia4" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Esposa de Mentirinha</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/comedia/comedia5" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Zohan, Agente Bom de Corte</h3>
+
+                </li>
+            </ul>
+        </section>
+        <!-- FIm da lista de filmes -->
+
+        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <section class="container__lista-filmes">
+            <h2 class="lista-filmes__title">Ação</h2>
+            <ul class="lista-filmes">
+                <li class="filme">
+                    <img src="img/Filmes/acao/acao1" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">John Wick</h3>
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/acao/acao2" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">007</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/acao/acao3" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Meninas Malvadas</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/acao/acao4" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Esposa de Mentirinha</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/acao/acao5" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Zohan, Agente Bom de Corte</h3>
+
+                </li>
+            </ul>
+        </section>
+        <!-- FIm da lista de filmes -->
+
+
+        <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
+        <section class="container__lista-filmes">
+            <h2 class="lista-filmes__title">Terror</h2>
+            <ul class="lista-filmes">
+                <li class="filme">
+                    <img src="img/Filmes/terror/terror1" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">A Morte do Demônio: A Ascensão</h3>
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/terror/terror2" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Boneco do Mal 2</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/terror/terror3" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">Escape Room 2</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/terror/terror4" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">The Exorcist</h3>
+
+                </li>
+                <li class="filme">
+                    <img src="img/Filmes/terror/terror5" alt="" class="filme-imagem">
+                    <h3 class="filme-titulo">A Órfã</h3>
 
                 </li>
             </ul>
