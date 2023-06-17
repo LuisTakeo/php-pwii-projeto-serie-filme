@@ -5,13 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Cadastre-se</title>
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-
+    <title>Document</title>
 </head>
 <body>
-
-<?php include('header.php'); ?>
+<?php include("header.php") ?>
     <form class="mb-3" action="./usuario-salvar.php" method="post">
         <label class="form-label" for="txNome">Nome: </label>
         <input class="form-control" type="text" placeholder="Insira o nome" name="txNome" id="txNome">
@@ -23,10 +20,7 @@
         <input class="form-control" type="text" placeholder="Insira o email" name="txEmail" id="txEmail">
 
         <label class="form-label" for="txTelefone">Telefone: </label>
-        <input class="form-control" placeholder="Insira o telefone" name="txTelefone" id="txTelefone"></input>
-
-        <label class="form-label" for="txTelefone">Senha: </label>
-        <input class="form-control" type="Password" placeholder="Insira a senha" name="txSenha" id="txSenha"></input>
+        <textarea class="form-control" placeholder="Insira o telefone" name="txTelefone" id="txTelefone"></textarea>
 
         <input type="submit" value="Salvar">
     </form>

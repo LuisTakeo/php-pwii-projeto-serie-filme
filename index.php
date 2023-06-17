@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filmes series potocom</title>
+    <title>Pipoca.com - Home</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
@@ -27,22 +27,21 @@
 
         <section class="container__generos-filmes">
             <ul class="generos-filmes">
-                <li class="genero">Terror</li>
-                <li class="genero">Ação</li>
-                <li class="genero">Drama</li>
-                <li class="genero">Animação</li>
-                <li class="genero">Comédia</li>
+                <li class="genero"> <a href="#animacao">Animação</a> </li>
+                <li class="genero"> <a href="#drama">Drama</a> </li>
+                <li class="genero"> <a href="#comedia">Comedia</a> </li>
+                <li class="genero"> <a href="#acao">Ação</a> </li>
+                <li class="genero"> <a href="#terror">Terror</a> </li>
             </ul>
         </section>
 
         <nav class="lista-filmes_nav">
             <a href="#">Filmes</a>
-            <a href="#">Séries</a>
         </nav>
         <section class="container__lista-filmes">
 
 
-            <h2 class="lista-filmes__title">Animação</h2>
+            <h2 class="lista-filmes__title" id="animacao">Animação</h2>
             <ul class="lista-filmes">
                 <li class="filme">
                     <img src="img/Filmes/animacao/imagem1" alt="" class="filme-imagem">
@@ -76,7 +75,7 @@
 
         <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
         <section class="container__lista-filmes">
-            <h2 class="lista-filmes__title">Drama</h2>
+            <h2 class="lista-filmes__title" id="drama">Drama</h2>
             <ul class="lista-filmes">
                 <li class="filme">
                     <img src="img/Filmes/drama/drama1" alt="" class="filme-imagem">
@@ -110,7 +109,7 @@
 
         <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
         <section class="container__lista-filmes">
-            <h2 class="lista-filmes__title">Comédia</h2>
+            <h2 class="lista-filmes__title" id="comedia">Comédia</h2>
             <ul class="lista-filmes">
                 <li class="filme">
                     <img src="img/Filmes/comedia/comedia1" alt="" class="filme-imagem">
@@ -142,7 +141,7 @@
 
         <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
         <section class="container__lista-filmes">
-            <h2 class="lista-filmes__title">Ação</h2>
+            <h2 class="lista-filmes__title" id="acao">Ação</h2>
             <ul class="lista-filmes">
                 <li class="filme">
                     <img src="img/Filmes/acao/acao1" alt="" class="filme-imagem">
@@ -155,17 +154,17 @@
                 </li>
                 <li class="filme">
                     <img src="img/Filmes/acao/acao3" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Meninas Malvadas</h3>
+                    <h3 class="filme-titulo">Velozes e Furiosos</h3>
 
                 </li>
                 <li class="filme">
                     <img src="img/Filmes/acao/acao4" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Esposa de Mentirinha</h3>
+                    <h3 class="filme-titulo">Duro de Matar</h3>
 
                 </li>
                 <li class="filme">
                     <img src="img/Filmes/acao/acao5" alt="" class="filme-imagem">
-                    <h3 class="filme-titulo">Zohan, Agente Bom de Corte</h3>
+                    <h3 class="filme-titulo">Vingadores</h3>
 
                 </li>
             </ul>
@@ -175,7 +174,7 @@
 
         <!-- Sessão para armazenar filmes, caso necessário, fazer uma cópia embaixo. Começo da Lista de filmes -->
         <section class="container__lista-filmes">
-            <h2 class="lista-filmes__title">Terror</h2>
+            <h2 class="lista-filmes__title" id="terror">Terror</h2>
             <ul class="lista-filmes">
                 <li class="filme">
                     <img src="img/Filmes/terror/terror1" alt="" class="filme-imagem">
@@ -203,7 +202,7 @@
                 </li>
             </ul>
         </section>
-        <!-- FIm da lista de filmes -->
+        <!-- Fim da lista de filmes -->
 
 
     </main>

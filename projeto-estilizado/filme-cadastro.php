@@ -37,7 +37,7 @@
 
             <div>
             <label class="form-label" for="txDescricao">Descrição: </label>
-            <textarea class="form-control" placeholder="Insira a duração" name="txDescricao" id="txDescricao"></textarea>
+            <textarea class="form-control" placeholder="Insira a descrição" name="txDescricao" id="txDescricao"></textarea>
             </div>
 
             <div>
@@ -47,9 +47,20 @@
             <input type="submit" value="Salvar" class="salvar">
         </form>
 
+        <form action="filmes-salvar-img.php" enctype="multipart/form-data" method="post" class="mb-3">
+            <div>
+                <label class="form-label" for="arqimage">Imagem do filme: </label>
+                <input type="file" name="arqimage" class="form-control-file">
+            </div>
+            <div>
+                <label class="form-label" for="img-genero">Gênero do filme: </label>
+                <input type="text" name="img-genero" placeholder="Insira o gênero do filme" class="form-control">
+            </div>
+            <input type="submit" value="Salvar Imagem" class="salvar">
+        </form>
+
     </section>
 
-    <!-- TODO não mostrar o ID e linkar o genero -->
     <section class="container">
         <table class="table">
         <thead>
@@ -82,17 +93,6 @@
         </table>
         
     </section>
-
-    <!-- <form action="" method="post">
-    <label class="form-label" for="txGenero">Genero: </label>
-        <input class="form-control" type="text" placeholder="Insira aqui o genero" name="txGenero" id="txGenero">
-    </form> -->
-
-
-    <?php 
-        include("footer.php");
-    ?>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>

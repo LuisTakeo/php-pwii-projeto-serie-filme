@@ -1,0 +1,285 @@
+@font-face {
+    font-family: DMsans;
+    src: url(..\FONTS\DMSans-Regular.ttf);
+  }
+  
+  /* Header */
+  
+  .container__header {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0 30px;
+  }
+  
+  .header__title {
+    display: inline;
+    padding: 0;
+  }
+  
+  .header__title > h2 > a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  .header__title > h2 > a > img {
+    width: 40px;
+    position: relative;
+    top: 3px;
+  }
+  
+  .header__title > h2 > a > span {
+    position: relative;
+  }
+  
+  .header__navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 2px 0;
+  }
+  
+  .list-item > a,
+  .header__login > a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  .list-item > a:hover,
+  .header__login > a:hover {
+    color: black;
+    background-color: aliceblue;
+  }
+  
+  /* Body */
+  
+  .body {
+    font-family: 'DMsans';
+    font-weight: 500;
+    background: linear-gradient(to right, #ecf7f1, #2e2c2c, #69ff5c);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .uklogo,
+  .vari,
+  .nyt {
+    font-style: italic;
+  }
+  
+  .Comentario {
+    position: absolute;
+    right: 50px;
+    top: 600px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  .Comentario:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #cce3e4, 0 0 25px #c9d3d4, 0 0 50px #a3aeaf, 0 0 100px #dae4e5;
+  }
+  
+  .h3 {
+    font-size: 200%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.937);
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  .h3:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #cce3e4, 0 0 25px #c9d3d4, 0 0 50px #a3aeaf, 0 0 100px #dae4e5;
+  }
+  
+  .vari {
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .varilogo {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/70/Variety_Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+  }
+  
+  .nyt {
+    text-align: right;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .nytlogo {
+    background-image: url(https://cdn.freebiesupply.com/images/large/2x/new-york-times-logo-png-transparent.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+  }
+  
+  .uklogo {
+    text-align: right;
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .inde {
+    background-image: url(https://1000logos.net/wp-content/uploads/2020/02/The-Independent-Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+    position: absolute;
+    top: 480px;
+    right: 20px;
+  }
+  
+  .isinopse {
+    width: 400px;
+  }
+  
+  .sinopse {
+    background-attachment: fixed;
+    text-align: left;
+    position: fixed;
+    left: 20px;
+    top: 370px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .image1 {
+    text-align: center;
+    position: fixed;
+    left: 600px;
+    top: 100px;
+    display: grid;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    grid-template-columns: max-content auto;
+    grid-template-rows: auto max-content;
+    background: #333 url(https://static01.nyt.com/images/2016/01/31/arts/31CAROLBOOK1/31CAROLBOOK1-superJumbo.jpg) center;
+    background-size: cover;
+    color: rgb(219, 219, 219);
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+  
+  }
+  
+  .image1:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+  }
+  
+  .image1:before {
+    grid-row: 1 / 2;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .image1:after {
+    grid-row: 1 / span 2;
+    border-left: none;
+  }
+  
+  
+  
+  
+  .image2 {background-attachment: fixed;
+    text-align: center;
+    position: fixed;
+    left: 600px;
+    top: 300px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    grid-template-columns: max-content auto;
+    grid-template-rows: auto max-content;
+    background: #333 url(https://www.guiagaysaopaulo.com.br/public/uploads/imagens/originais/noticia-foto/beijo_gay_lesbico_de_carol_e_vetado_em_voo_aviao_delta.jpg) center;
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+  
+    
+  
+  }
+  
+  .image2:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+  
+  }
+  
+  .image3 {
+    text-align: center;
+    position: fixed;
+    left: 600px;
+    top: 500px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    grid-template-columns: max-content auto;
+    grid-template-rows: auto max-content;
+    background: #333 url(https://thefilmstage.com/wp-content/uploads/2015/12/Carol-e1451356350705.jpg) center;
+    background-size: cover;
+    color: rgb(176, 134, 213);
+    width: 200px;
+    height: 100px;
+    padding: 2rem;
+    opacity: 0.8;
+  
+  }
+  
+  .footer{
+    background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+  }

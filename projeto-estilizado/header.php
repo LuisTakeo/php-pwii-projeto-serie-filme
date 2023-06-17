@@ -5,14 +5,15 @@
 
         <nav class="header__navbar">
             <ul class="header__navbar-list">
-                <li class="list-item"><a href="filme-cadastro.php">Cadastrar filmes</a></li>
+                <li class="list-item"><a href="filme-cadastro.php">Filmes</a></li>
+                <li class="list-item"><a href="#">Series</a></li>
                 <li class="list-item"><a href="#">Contato</a></li>
                 <li class="list-item"><a href="#">Sobre</a></li>
             </ul>
         </nav>
 
         <div class="header__login">
-            <a href="./login.php">Entrar</a>
+            <a href="./login.php">Login</a>
         </div>
 
     </header>
